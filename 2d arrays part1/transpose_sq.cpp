@@ -21,7 +21,7 @@ int main(){
     cout<<endl;
 
     //transpose in the same matrix
-    for(int i=1;i<m;i++){
+    for(int i=0;i<m;i++){
         for(int j=i+1;j<m;j++){
              int temp = arr[i][j];   //swapping
              arr[i][j] = arr[j][i];
