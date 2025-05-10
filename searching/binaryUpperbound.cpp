@@ -14,7 +14,7 @@ int main(){
         int mid = low + (high-low)/2;
         if(arr[mid]==x) {
             flag = true;
-            cout<<arr[mid-1];
+            cout<<arr[mid+1];
             break;
         }
         else if(arr[mid]<x) low=mid+1;
