@@ -1,7 +1,3 @@
-//find target x . find the first occurrence of x in array and if notfound return -1
-//find lower bound if target element is not found
-// 1 2 4 5 15 18 21 24  target=20 , notfound , lowerbound=18 , upperbound=21
-
 #include<iostream>
 using namespace std;
 int main(){
