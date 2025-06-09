@@ -15,4 +15,11 @@ int main(){
     for(int ele:s){
     cout<<ele<<" ";
     }
+cout<<endl;
+
+    s.erase(3);
+    //printing after deletion
+    for(int ele:s){
+    cout<<ele<<" ";
+    }
 }
