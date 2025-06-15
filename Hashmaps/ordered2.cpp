@@ -12,7 +12,7 @@ int main(){
     for(auto x : m){
        string name = x.first;
        int age = x.second;
-    //    cout<<x.first<<" "<<endl;
+       cout<<x.first<<" "<<endl;
        cout<<x.second<<" "<<endl;
 
     }
