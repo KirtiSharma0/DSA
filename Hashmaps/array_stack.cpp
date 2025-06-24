@@ -23,5 +23,10 @@ int main(){
     st.push(10);
     st.push(20);
     st.push(30);
-    cout<<st.size();
+    st.push(40);
+    cout<<st.top()<<endl;
+    cout<<st.size()<<endl;
+    st.pop(); //removed element
+    cout<<st.size()<<endl;
+    cout<<st.top()<<endl;
 }
