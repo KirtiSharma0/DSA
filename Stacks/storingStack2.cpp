@@ -25,3 +25,5 @@ int main(){
         temp.pop();
     }
 }
+
+//print stack without stack being empty
