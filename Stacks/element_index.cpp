@@ -12,7 +12,7 @@ int main(){
     st.push(60);
     //empty st in rt till index value more than give index
     stack<int>rt;
-    int index = 2;
+    int index = 2; //to put value stack
     while(st.size()>index){
         rt.push(st.top());
         st.pop();
