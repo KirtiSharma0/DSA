@@ -11,10 +11,10 @@ int main(){
     st.push(5);
     st.push(6);
 
-    cout<<st.top()<<endl;  //to find topmost element
+    cout<<st.top()<<endl;  //to find topmost element = ans is 6
     
     st.pop();
     st.pop(); //two pops means removing two elements
 
-    cout<<st.top(); //after removing two elements
+    cout<<st.top(); //after removing two elements = ans is 4
 }
