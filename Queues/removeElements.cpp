@@ -22,7 +22,7 @@ int main(){
         q.push(x);
        }
     }
-    for(int i=0;i<q.size();i++){
+    while( q.size()>0){
         cout<<q.front()<<" ";
         q.pop();
     }
