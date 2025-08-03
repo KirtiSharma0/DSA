@@ -2,8 +2,8 @@
 #include<stack>
 using namespace std;
 int pr(char ch){
-    if(ch=='+' || ch=='-') return 1;  //priority power 1
-    if(ch=='/' || ch=='*') return 2;  //priority power 2
+    if(ch=='+' || ch=='-') return 1;  //priority power low
+    if(ch=='/' || ch=='*') return 2;  //priority power high
 }
 
 int solve(int n1, int n2, int ch){
