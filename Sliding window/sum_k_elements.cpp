@@ -20,8 +20,9 @@ int main(){
     nextsum = sum + arr[j];     //adding next value
     i++;
     j++;
-    }
     if(maxsum < nextsum) maxsum = nextsum;
+    }
+    
     cout<<nextsum;
     return 0;
 }
