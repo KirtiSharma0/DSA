@@ -19,7 +19,8 @@ int main(){
         nextproduct = pro * arr[j];  //to add
         i++;
         j++;
+        if(maxpro < nextproduct) maxpro = nextproduct;
     }
-    if(maxpro < nextproduct) maxpro = nextproduct;
+    
     cout<<nextproduct;
 }
